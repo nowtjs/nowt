@@ -98,7 +98,7 @@ export class ExpressAdapter implements HttpAdapter {
   }
 
   public getName(): string {
-    return 'express';
+    return 'Express';
   }
 
   public listen(
