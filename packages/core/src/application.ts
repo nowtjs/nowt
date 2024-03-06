@@ -37,7 +37,7 @@ export class Application {
       return this;
     }
 
-    this.environment.log.info('Initializing application...');
+    this.environment.log.info('Initializing application');
     await this.hooks.addStartupHook();
     this.isInitialized = true;
     this.environment.log.info('Application initialization completed');
@@ -57,7 +57,11 @@ export class Application {
   }
 
   public createServer<T = any>(): T {
+    this.environment.log.info(
+      `Initializing HTTP adapter [${this.adapter.getName()}] `,
+    );
     this.adapter.initHttpServer();
+    this.environment.log.info(`${this.adapter.getName()} initialized`);
     return this.adapter.getHttpServer() as T;
   }
 
