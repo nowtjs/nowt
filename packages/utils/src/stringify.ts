@@ -11,5 +11,9 @@ export function stringify(token: any): string {
     return `${token.name}`;
   }
 
+  if (token.constructor?.name) {
+    return `${token.constructor.name}`;
+  }
+
   return token.toString();
 }
