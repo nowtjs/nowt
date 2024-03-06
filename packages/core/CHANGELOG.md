@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.3](https://github.com/nowtjs/nowt/compare/v0.6.2...v0.6.3) (2024-03-06)
+
+### Bug Fixes
+
+- **core:** refine initialization messages ([8cfdf9c](https://github.com/nowtjs/nowt/commit/8cfdf9c2d5c2336a74e84ce7feef5b43abdfe571))
+
 ## [0.6.2](https://github.com/nowtjs/nowt/compare/v0.6.1...v0.6.2) (2024-03-06)
 
 ### Bug Fixes
