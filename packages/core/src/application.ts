@@ -37,10 +37,10 @@ export class Application {
       return this;
     }
 
-    this.environment.log.info('Starting application...');
+    this.environment.log.info('Initializing application...');
     await this.hooks.addStartupHook();
     this.isInitialized = true;
-    this.environment.log.info('Application successfully started ');
+    this.environment.log.info('Application initialization completed');
     return this;
   }
 
