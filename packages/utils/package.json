@@ -1,0 +1,30 @@
+{
+  "name": "@nowtjs/utils",
+  "version": "0.6.0",
+  "description": "Nowt Utils",
+  "license": "MIT",
+  "author": "Augustus Kamau",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "dependencies": {
+    "tslib": "2.6.2"
+  },
+  "devDependencies": {
+    "@types/jest": "29.5.11",
+    "@types/node": "20.11.5"
+  },
+  "homepage": "https://github.com/nowtjs/nowt",
+  "bugs": {
+    "url": "https://github.com/nowtjs/nowt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nowtjs/nowt.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

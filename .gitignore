@@ -1,0 +1,26 @@
+# dependencies
+node_modules
+
+# IDE
+/.idea
+/.awcache
+/.vscode
+
+# misc
+npm-debug.log
+lerna-debug.log
+.DS_Store
+
+# tests
+/test
+/coverage
+/.nyc_output
+test-schema.graphql
+*.test-definitions.ts
+
+# dist
+packages/**/dist
+**/*.tsbuildinfo
+
+.yarn/
+.nx/cache
