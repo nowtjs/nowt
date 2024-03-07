@@ -1,2 +1,2 @@
-export * from './noop-logger';
+export * from './logger';
 export * from './stringify';
