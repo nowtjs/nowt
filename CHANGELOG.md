@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.4](https://github.com/nowtjs/nowt/compare/v0.6.3...v0.6.4) (2024-03-07)
+
+**Note:** Version bump only for package @nowtjs/workspace
+
 ## [0.6.3](https://github.com/nowtjs/nowt/compare/v0.6.2...v0.6.3) (2024-03-06)
 
 ### Bug Fixes

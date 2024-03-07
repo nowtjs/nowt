@@ -1,6 +1,6 @@
 {
   "name": "@nowtjs/core",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "description": "Nowt Core",
   "license": "MIT",
   "author": "Augustus Kamau",
@@ -10,7 +10,7 @@
     "test": "jest --detectOpenHandles"
   },
   "dependencies": {
-    "@nowtjs/utils": "^0.6.2",
+    "@nowtjs/utils": "^0.6.4",
     "iterare": "1.2.1",
     "tslib": "2.6.2"
   },
