@@ -1,8 +1,9 @@
+import * as http from 'node:http';
+import * as https from 'node:https';
+
 import type { HttpAdapter } from '@armscye/http';
 import { isEmpty } from '@hemjs/notions';
 import * as express from 'express';
-import * as http from 'http';
-import * as https from 'https';
 import * as stoppable from 'stoppable';
 
 import type { AdapterEnvironment, ServeStaticOptions } from './interfaces';

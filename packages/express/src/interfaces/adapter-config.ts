@@ -1,4 +1,4 @@
-import type { TlsOptions } from 'tls';
+import type { TlsOptions } from 'node:tls';
 
 export interface AdapterConfig {
   /**
