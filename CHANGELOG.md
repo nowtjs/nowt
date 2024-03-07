@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/nowtjs/nowt/compare/v0.6.4...v0.7.0) (2024-03-07)
+
+### Features
+
+- **express:** accept object handlers ([56ce7ad](https://github.com/nowtjs/nowt/commit/56ce7ad864784e1ee53a85b5191e048c07844173))
+
 ## [0.6.4](https://github.com/nowtjs/nowt/compare/v0.6.3...v0.6.4) (2024-03-07)
 
 **Note:** Version bump only for package @nowtjs/workspace
