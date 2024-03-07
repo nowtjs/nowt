@@ -10,6 +10,7 @@ export type Handler =
   | RequestHandler
   | Type<any>
   | Function
+  | object
   | string
   | Symbol;
 
